@@ -1,4 +1,4 @@
-# MID TERM Full Stack Engineer at Generasi GIGIH 3.
+# FINAL TERM Full Stack Engineer at Generasi GIGIH 3.
 ### Author : GG3FSGP0366 - JAMALUL IKHSAN.
 
 ## 1. Database Structure (MongoDB)
@@ -19,6 +19,8 @@ _id : ObjectId
 videoId : String
 thumbnail : String
 altImage : String
+video : String
+views : String
 ```
 ##### Output (videolists) :
 ```
@@ -26,11 +28,13 @@ Example data output for videolists :
 
 {
   "_id": {
-    "$oid": "64c240d51db62f3ae34a7432"
+    "$oid": "64da24e7e0ad9bd27e161862"
   },
   "videoId": 123,
   "thumbnail": "https://nowpalembang.com/wp-content/uploads/2022/06/toko-sepatu-palembang-2.jpeg",
-  "altImage": "Toko-sepatu"
+  "altImage": "Toko-sepatu",
+  "video": "https://www.youtube.com/embed/EKwhy_R3Dyc",
+  "views": 151
 }
 ```
 
@@ -40,6 +44,7 @@ Example data output for videolists :
 _id : ObjectId
 productId : Number
 linkProduct : String
+imgProduct : String
 title : String
 price : Number
 videoId : Number
@@ -49,15 +54,13 @@ videoId : Number
 Example data output for productlists :
 
 {
-  "_id": {
-    "$oid": "64c240e91db62f3ae34a743c"
-  },
-  "productId": 321,
-  "linkProduct": "https://www.tokopedia.com/find/tas",
-  "title": "Tas Pink",
-  "price": 58000,
-  "videoId": 456
-}
+  "productId" : 321,
+  "linkProduct" : "https://www.tokopedia.com/find/tas",
+  "imgProduct"  : "https://media.istockphoto.com/id/1488773418/id/foto/tas-warna-warni-dengan-desain-lucu-dipajang-di-toko.jpg?s=612x612&w=0&k=20&c=0AZz2WaTv-u0fzCK-8XFl8WYFqzWDkIOPOdhsuILQIk=",
+  "title" : "Tas Pink",
+  "price" : 58000,
+  "videoId" : 456
+},
 ```
 
 ## Comment Collections

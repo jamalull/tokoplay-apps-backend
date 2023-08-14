@@ -9,6 +9,10 @@ const productlistSchema = new mongoose.Schema({
     required : true,
     type : String
   },
+  imgProduct : {
+    required : true,
+    type : String
+  },
   title : {
     required : true,
     type : String
