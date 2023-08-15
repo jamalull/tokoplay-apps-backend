@@ -1,6 +1,16 @@
 # FINAL TERM Full Stack Engineer at Generasi GIGIH 3.
 ### Author : GG3FSGP0366 - JAMALUL IKHSAN.
 
+## The apps is already in the hosted, Check this link :
+```
+FE Repo : https://github.com/jamalull/tokoplay-apps/tree/master/frontend
+BE Repo : https://github.com/jamalull/tokoplay-apps-backend/tree/master
+
+The apps is already in the hosted, Check this link :
+BE Online : https://tokoplay-backend.cyclic.cloud/
+FE Online : https://tokoplay-apps.netlify.app/
+```
+
 ## 1. Database Structure (MongoDB)
 ```
 DB Name : tokoplay
